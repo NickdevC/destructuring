@@ -12,6 +12,13 @@ let [john, mary, joe] = ages;
 console.log(john, mary, joe);
 
 // Destructuring objects
+let jobs = {
+    mike: "designer",
+    jill: "developer",
+    alicia: "accountant",
+};
+let {mike, jill, alicia} = jobs;
+console.log(mike, jill, alicia);
 
 // Destructuring subsets
 
